@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/panel/portefeuille/ajoutportefeuille/page.js",
+    "src/app/callback/page.js",
+    "src/app/api/login.js",
+    "src/app/panel/portefeuille/questionnaire/pre/question9/pae",
+    "src/app/panel/portefeuille/Kyc_particulier/resultat-kyc/page.js",
+    "src/app/panel/portefeuille/Kyc_particulier/profil/page.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
